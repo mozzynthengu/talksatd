@@ -1,0 +1,88 @@
+/* Reset and typography */
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0 1.5em;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #2a4a6b;
+  margin-top: 1em;
+}
+
+h2, h3 {
+  color: #3b5a7d;
+}
+
+nav.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+  background-color: #2a4a6b;
+  margin-top: 1em;
+  border-radius: 6px;
+}
+
+nav.navbar ul li {
+}
+
+nav.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75em 1em;
+  display: block;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+nav.navbar ul li a:hover,
+nav.navbar ul li a.active {
+  background-color: #1c3450;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 3em;
+  border-top: 1px solid #ccc;
+  color: #777;
+}
+
+/* Forms */
+form label {
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.2em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #2a4a6b;
+  color: white;
+  border: none;
+  padding: 0.7em 1.3em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+form button:hover {
+  background-color: #1c3450;
+}
